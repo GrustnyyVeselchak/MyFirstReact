@@ -1,10 +1,11 @@
 import './App.css';
+import logo from './Logo-profile.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="./Logo-profile" className="Logo-profile" alt="logo"/>
+        <img src={logo} className="Logo-profile" alt="logo"/>
         <p>
           GrustnyyVeselchak
         </p>
